@@ -1,0 +1,38 @@
+{
+  "name": "coworking-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch server.ts",
+    "db:schema": "docker exec -i hotell-solsidan-db psql -U postgres -d hotell_solsidan -v ON_ERROR_STOP=1 < database/schema.sql",
+    "db:seed": "docker exec -i hotell-solsidan-db psql -U postgres -d hotell_solsidan -v ON_ERROR_STOP=1 < database/seed.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
+    "prisma": "^7.10.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true,
+    "prisma@7.10.1": true,
+    "@prisma/engines@7.10.1": true
+  }
+}

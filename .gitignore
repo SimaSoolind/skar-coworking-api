@@ -1,0 +1,13 @@
+# FILER SOM INTE SKA TILL GITHUB: hemligheter (.env), node_modules och det Prisma genererar.
+node_modules
+.env
+
+/generated/prisma
+/generated
+dist
+*.log
+.DS_Store
+.agents
+.claude
+.windsurf
+skills-lock.json

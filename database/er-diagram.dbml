@@ -1,0 +1,33 @@
+
+// Tabellen för användare
+Table users {
+  id integer [primary key]
+  username varchar [unique, not null]
+  password_hash varchar [not null]
+  role varchar [not null]
+}
+
+// ═════════
+Table rooms{
+  id integer [primary key]
+  name varchar [unique, not null]
+  capacity integer [not null]
+  type varchar [not null]
+}
+// ═════════
+
+
+  // Tabellen för bokningar
+Table bookings {
+  id integer [primary key]
+  user_id integer [not null]
+  room_id integer [not null]
+  start_time timestamp [not null]
+  end_time timestamp [not null]
+}
+// ═════════
+
+// En användare kan ha många bokningar
+Ref: bookings.user_id > users.id
+// Ett rum kan ha många bokningar
+Ref: bookings.room_id > rooms.id
