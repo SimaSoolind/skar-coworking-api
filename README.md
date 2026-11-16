@@ -58,7 +58,7 @@ HotellSkar-api/
 │   ├── 10-rumsbilder.md      Rumsbilderna + stilreceptet
 │   └── 11-behorighet-backend.md  Var backend nekar (401/403)
 │
-├── public/                   Frontend (för VG)
+├── public/                   Frontend 
 ├── prisma/                   Används senare
 │
 ├── .env                      Hemligheter. Finns ALDRIG på GitHub.
