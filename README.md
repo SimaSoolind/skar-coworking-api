@@ -46,14 +46,17 @@ HotellSkar-api/
 │   ├── seed.sql              Testdata
 │   └── queries.sql           Testfrågor
 │
-├── docs/                     MIN DOKUMENTATION. En kort fil per sak.
+├── docs/                     Mina planer (privat – finns inte på GitHub)
 │   ├── 1-bocklista.md        Vad är klart, vad är kvar
 │   ├── 2-forelasningar.md    Föreläsning → del av projektet
 │   ├── 3-receptet.md         Så bygger jag en ny sak
 │   ├── 4-sakerhet-regler.md  Fråga 5a–5f, any, säker SQL
 │   ├── 5-sakerhet-bocklista.md  Säkerhet per fas
 │   ├── 6-lararens-krav.md    Projektbeskrivningen
-│   └── 7-trana-pa.md         Vad jag ska träna mer på
+│   ├── 7-trana-pa.md         Vad jag ska träna mer på
+│   ├── 8-frontend-react.md   Plan för React-frontend 
+│   ├── 10-rumsbilder.md      Rumsbilderna + stilreceptet
+│   └── 11-behorighet-backend.md  Var backend nekar (401/403)
 │
 ├── public/                   Frontend (för VG)
 ├── prisma/                   Används senare
@@ -61,7 +64,7 @@ HotellSkar-api/
 ├── .env                      Hemligheter. Finns ALDRIG på GitHub.
 ├── .env.example              Mall för .env, utan riktiga värden
 ├── package.json              Paket och kortkommandon (npm run ...)
-└── stegen.md                 STARTSIDA: mina anteckningar + länkar till docs/
+└── stegen.md                 Mina anteckningar (privat – finns inte på GitHub)
 ```
 
 ## Var lägger jag …?

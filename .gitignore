@@ -11,3 +11,9 @@ dist
 .claude
 .windsurf
 skills-lock.json
+
+# 🔒 Mina planer och design – privata tills det riktiga arbetet är klart (beslut 16/11)
+# Finns kvar på min dator, men skickas inte till GitHub.
+docs/
+stegen.md
+frontend/

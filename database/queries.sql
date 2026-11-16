@@ -23,7 +23,7 @@ ORDER BY bookings.start_time;
 
 
 -- FRÅGA 3: Krockkontroll
--- Vill boka Ekrummet (room_id = 1) 16/11 kl 10:00–12:00.
+-- Vill boka Holmen (room_id = 1) 16/11 kl 10:00–12:00.
 -- Regel: gamla börjar innan nya slutar OCH gamla slutar efter att nya börjar.
 -- Hittar rader = KROCK → API:et svarar 409.
 -- 0 rader = LEDIGT → bokningen får sparas.
